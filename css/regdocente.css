@@ -1,0 +1,144 @@
+*{
+    color: #000000; /*CODIGO DEL COLOR DE LA LETRA*/    
+    font-size: 12px; /*TAMAÑO DE LA LETRA*/
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    padding: 0;
+}
+
+body{
+    background: /img/.css/fondonaranja.jpg; /*CODIGO DEL COLOR DEL FONDO DE LA PÁGINA*/
+    padding-top: 8%;
+    text-decoration-color: #000000;
+    margin-top: 0.1%;
+    margin-bottom: 10%;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family: Arial, Helvetica, sans-serif;  
+    margin: 1px 10px 10px 30px; /*CODIGO PARA EL CENTRADO DE LA CAJA DEL TEXTO*/
+}
+
+div img{
+    margin-top: -8%;
+    margin-right: 43%;
+    margin-left: -2%;
+    max-height: -25%;
+    max-width: 35%;
+}
+
+form div{
+    color: #FFFAF0;
+    font-weight: bold; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 14px;
+    align: justify;
+}
+
+fieldset{
+    background: #FFFFFF; /*CODIGO DE LA CAJA*/
+    border-radius: 0px 10px 0px 10px; /*CODIGO DE LA RENDONDEZ DEL BORDE*/
+    border-color: #F17E03; /*CODIGO DEL COLOR DEL BORDE*/
+    box-shadow: 3px 2px 3px 2px;/*CODIGO DEL TAMAÑO DE LA SOMBRA DEL BORDE EXTERNO DE LA CAJA  */
+    border-style: solid;
+    color: #F17E03;/*CODIGO DEL BORDE DEL SOMBREADO*/   
+    float: center;
+    margin-top: 2%;
+}
+
+form.formulario{
+    background: none repeat scroll 0 0 #F17E03; /*CODIGO DEL COLOR DE LA CAJA*/
+    border: 2px #FFFFFF;/*CODIGO DEL COLOR DE LA LINEA EXTERNA DE LA CAJA*/
+    border-style: solid;
+    border-radius: 0px 10px 0px 10px; /*CODIGO DEL BORDE LA LA CAJA*/
+    box-shadow: 3px 2px 3px 2px #FFFFFF; /*CODIGO DEL ANCHO Y EL COLOR DEL BORDE DE LA CAJA*/    
+    font-color: #000000; /* CODIGO PARA EL COLOR DE LAS LETRA DE LA CAJA*/
+    font-family: consolas; /*TIPO DE LA LETRA DE LA CAJA*/
+    font-size: 0px; /*CODIGO DEL TAMAÑO DE LA LETRA DE LA CAJA*/
+    height: 570px; /*CODIGO DE ALTURA DE LA CAJA*/
+    padding-top: 3px;
+    width: 935px; /*CODIGO DE ANCHURA DE LA CAJA*/
+}
+
+img{
+    margin-top: -8%;
+    margin-right: 43%;
+    margin-left: -2%;
+    max-width: 100%;
+}
+
+input{
+    border-radius: 5px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif, Consolas;
+    font-size: 13px;
+    height: 1.7em;
+}
+
+p{
+    border-top: 2px;
+    font-family: consolas;
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: -30%;
+    text-align: center;
+}
+
+select{
+    border-color: #000000;
+    border-radius: 5px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif, Consolas;
+    font-size: 13px;
+    text-align: center;
+    height: 1.7em;
+}
+
+span{
+    color: #FFFFFF;
+    font-weight: bold; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 14px;
+    align: justify;
+}
+
+strong{
+    color: #000000;
+    font-weight: bold; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 14px;
+    align: justify;
+}
+
+table div a img{/*CODIGOS DE LAS IMAGENES SUPERIORES*/
+    height: 35px;
+    margin-top: -8%;
+    margin-right: 43%;
+    margin-left: -2%;
+    max-width: 100%;
+    width: 35px;    
+}
+
+table div img{/*CODIGOS DE LAS IMAGENES SUPERIORES*/
+    height: 35px;
+    margin-top: -8%;
+    margin-right: 43%;
+    margin-left: -2%;
+    max-width: 100%;
+    width: 35px;    
+}
+
+span div{
+    color: #000000;
+    font-weight: bold; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 14px;
+    align: justify;
+}
+
+.error{
+    color: red;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+}

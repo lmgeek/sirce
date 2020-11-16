@@ -1,0 +1,79 @@
+body{
+
+	background: /img/.css/fondonaranja.jpg;
+	padding-top: 1px;
+}
+
+h1{
+	color: #FFFFFF;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+}
+
+img{
+    max-width: 100%;
+    margin-top: -0.5%;
+    margin-right: 0%%;
+    margin-left: -1%;
+	float: center;
+}
+
+
+input[type="submit"]{
+    background: none repeat scroll 0 0 #000000; /*CODIGO DEL COLOR DE LA CAJA DE ENVIAR*/
+    border: 1px solid #C0C0C0; /*CODIGO DEL COLOR DE LA DE LA LINEA INTERNA DE LA CAJA DE LAS LETRAS*/
+    border-radius: 5px 0px 5px 0px; /*CODIGO DE LA REDONDEZ DE LA CAJA DE ENTRAR */
+    color: #FFFFFF;
+    float: center;
+    font-weight: bold;
+    margin-right: 10px;
+    max-width: 100%;
+    padding: 6px 20px; /*CODIGO DEL ANCHO DE LA CAJA DE ENTRAR */
+
+}    
+
+fieldset{
+	background: #F17E03;
+	border-radius: 10px 0px 10px 0px;
+	box-shadow:0px 0px 20px black;
+	font-family: Consolas;
+	margin-top: -1.2%;
+    max-width: 100%;
+    max-height: 100%;
+	padding-top: -30px;
+}
+
+p{
+	color: #FFFFFF;
+	font-family: consolas;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 0%;
+    max-width: 100%;	
+	text-align: center;
+
+}
+
+strong{
+	color: #000000;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: right;
+	border-radius: 5px;
+	background: #FFFFFF;
+	padding: 7px;  
+}
+
+@media screen and (max-widht: 100px){
+    body{
+        widht:50px;
+    }
+}
+
+.error{
+    color: red;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+}

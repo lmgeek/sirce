@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 18px; /*TAMAÑO DE LA LETRA*/
+    color: #FFFFFF; /*CODIGO DEL COLOR DE LA LETRA*/
+}
+
+a img{
+    max-width: -50%;
+    float: center;    
+} 
+
+body{
+    background: /img/.css/fondonaranja.jpg; /*CODIGO DEL COLOR DEL FONDO DE LA PÁGINA*/
+    padding-top: 7%;
+    text-decoration-color: #000000;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    font-family: Arial, Helvetica, sans-serif, Consolas;  
+    margin: 0px 5px 5px 10px; /*CODIGO PARA EL CENTRADO DE LA CAJA DEL TEXTO*/
+}
+
+div{
+    font-family: Arial, Helvetica, sans-serif, Consolas;
+    font-weight: bold;
+    color: #000000;
+    font-size: 14px;
+}
+
+div img{
+    margin-top: -8%;
+    margin-right: 43%;
+    margin-left: -2%;
+    max-height: -35%;
+    max-width: 45%;
+}
+
+fieldset{
+    background: #FFFFFF; /*CODIGO DE LA CAJA*/
+    border-radius: 0px 10px 0px 10px; /*CODIGO DE LA RENDONDEZ DEL BORDE*/
+    border-color: #F17E03; /*CODIGO DEL COLOR DEL BORDE*/
+    box-shadow: 3px 2px 3px 2px;/*CODIGO DEL TAMAÑO DE LA SOMBRA DEL BORDE EXTERNO DE LA CAJA  */
+    border-style: solid;
+    color: #F17E03;/*CODIGO DEL BORDE DEL SOMBREADO*/   
+    float: center;
+    margin-top: 1%;
+}
+
+form div{
+    color: #000000;
+}
+
+form.regperacad{
+    background: none repeat scroll 0 0 #F17E03;/*CODIGO DEL COLOR DE LA CAJA*/
+    border: 1px solid #FFFFFF;/*CODIGO DEL COLOR DE LA LINEA EXTERNA DE LA CAJA*/    
+    border-radius: 10px 0px 10px 0px; /*CODIGO DEL BORDE LA LA CAJA*/
+    box-shadow:0px 0px 10px #FFFFFF; /*CODIGO DEL ANCHO Y EL COLOR DEL BORDE DE LA CAJA*/
+    font-family: Arial, Helvetica, sans-serif, Consolas; /*TIPO DE LA LETRA DE LA CAJA*/
+    margin: 0 auto; /*CODIGO DEL ESPACIO ENTRE EL ENCABEZADO Y LA CAJA*/
+    max-width: 100%;
+    padding: 6px; /*CODIGO DEL TAMAÑO DE LA CAJA*/
+    padding-top: 15px;
+    width: 500px; /*CODIGO DE ANCHURA DE LA CAJA*/
+    height: 260px; /*CODIGO DE ALTURA DE LA CAJA*/
+}
+
+h1{
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif, Consolas;
+    font-size: 16px;
+    font-weight: bold;
+    height: 1.5em;
+    padding-top: 4px;
+}
+
+img{
+    max-width: 100%;
+    margin-top: -7%;
+    margin-right: 0%;
+    margin-left: -1%;
+    float: center;
+}
+
+input{
+    border-radius: 5px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif, Consolas;
+    font-size: 13px;
+    height: 1.7em;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif, Consolas;
+    text-align-last: center;
+    color: #000000;
+    font-size: 150%;
+    border-top: 2px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+select{
+    border-color: #000000;
+    border-radius: 5px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif, Consolas;
+    font-size: 13px;
+    text-align: center;
+    height: 1.7em;
+}
+
+span{
+    font-family: Arial, Helvetica, sans-serif, Consolas;
+    font-weight: bold;
+    color: #000000;
+}
+
+strong{
+    align: center;
+    border-radius: 5px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif, Consolas; 
+    font-size: 13px;
+    height: 1.5em;
+}
+
+table div a img{/*CODIGOS DE LAS IMAGENES SUPERIORES*/
+    height: 35px;
+    margin-top: -8%;
+    margin-right: 43%;
+    margin-left: -2%;
+    max-width: 100%;
+    width: 35px;    
+}
+
+@media screen and (max-widht: 100px){
+    body{
+        widht:50px;
+    }
+}
+
+.error{
+    color: red;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+}
+
+

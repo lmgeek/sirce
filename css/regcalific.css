@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    font-size: 12px; /*TAMAÑO DE LA LETRA*/
+	color: #000000; /*CODIGO DEL COLOR DE LA LETRA*/
+}
+
+body{
+    background: /img/.css/fondonaranja.jpg;; /*CODIGO DEL COLOR DEL FONDO DE LA PÁGINA*/
+    padding-top: 7%;
+    color: #000000;
+}
+
+form.regcalific{
+    background: none repeat scroll 0 0 #F17E03;/*CODIGO DEL COLOR DE LA CAJA*/
+    border: 2px solid #000000;/*CODIGO DEL COLOR DE LA LINEA EXTERNA DE LA CAJA*/
+    font-family: Consolas; /*TIPO DE LA LETRA DE LA CAJA*/
+    margin: 0 auto; /*CODIGO DEL ESPACIO ENTRE EL ENCABEZADO Y LA CAJA*/
+    padding: 10px; /*CODIGO DEL TAMAÑO DE LA CAJA*/
+    width: 960px; /*CODIGO DE ANCHURA DE LA CAJA*/
+	height: 670px; /*CODIGO DE ALTURA DE LA CAJA*/
+    box-shadow:0px 0px 20px black; /*CODIGO DEL ANCHO Y EL COLOR DEL BORDE DE LA CAJA*/
+    border-radius:10px 0px 10px 0px; /*CODIGO DEL BORDE LA LA CAJA*/
+    color: #000000;
+    margin-top: 30px;
+}
+
+form.regcalific div{
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+form.regcalific div label{
+    display: block;
+    float: left;
+    line-height: 30px;
+    color: #000044;
+}
+
+form.regcalific div input[type="submit"]{
+    background: none repeat scroll 0 0 #000000; /*CODIGO DEL COLOR DE LA CAJA DE ENVIAR*/
+    border: 1px solid #C0C0C0; /*CODIGO DEL COLOR DE LA DE LA LINEA INTERNA DE LA CAJA DE LAS LETRAS*/
+    float: right;
+    font-weight: bold;
+    margin-right: 10px;
+    padding: 6px 20px; /*CODIGO DEL ANCHO DE LA CAJA DE ENTRAR */
+    border-radius: 5px; /*CODIGO DE LA REDONDEZ DE LA CAJA DE ENTRAR */
+} 
+
+fieldset{
+    background: #FFFFFF;
+    border-radius: 10px 0px 10px 0px;
+}
+
+h1{
+    text-align: center;
+}
+
+
+img{
+    max-width: 100%;
+    margin-top: -7%;
+    margin-right: 0%%;
+    margin-left: -1%;
+    float: center;
+}
+
+input{
+    color: #000000;
+    font-family: consolas;
+    font-size: 12px; /*TAMAÑO DE LA LETRA*/
+    font-weight: bold;
+    height: 25px;
+    text-align: center;
+    
+}
+
+form select{
+    border-radius: 5px 0px 5px 0px;
+    color: #000000;   
+    height: 25px;
+    font-family: consolas;
+    font-size: 12px; /*TAMAÑO DE LA LETRA*/
+    font-weight: bold;
+    text-align: center;
+
+}
+
+span{
+    font-family: consolas;
+    font-size: 12px; /*TAMAÑO DE LA LETRA*/
+    font-weight: bold;
+    text-align: center;
+    color: #000000;
+}
+
+form strong.regcalific{
+    font-family: consolas;
+    font-size: 12px; /*TAMAÑO DE LA LETRA*/
+    font-weight: bold;
+    text-align: center;
+    color: #000000;
+}
+
+@media screen and (max-widht: 100px){
+    body{
+        widht:50px;
+    }
+}
+
+p{
+    font-family: consolas;
+    font-size: 20px; /*TAMAÑO DE LA LETRA*/
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+
+.error{
+    color: red;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+}

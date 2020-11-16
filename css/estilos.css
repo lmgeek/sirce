@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 18px; /*CODIGO DEL COLOR DE LA LETRA*/
+}
+
+b{
+	font-color: #000000;
+	font-family: consolas;
+	font-size: 20px;
+	font-weight: bold;
+	text-align:center;
+}
+
+body{
+    background: #990066; /*CODIGO DEL COLOR DEL FONDO DE LA PÁGINA*/
+    padding-top: 0%;
+}
+
+
+fieldset{
+    background: none repeat scroll 0 0 #FFFFFF;/*CODIGO DEL COLOR DE LA CAJA*/
+    border: 1px  solid #000000;/*CODIGO DEL COLOR DE LA LINEA EXTERNA DE LA CAJA*/
+    font-family: Consolas; /*TIPO DE LA LETRA DE LA CAJA*/
+    margin: 0 auto; /*CODIGO DEL ESPACIO ENTRE EL ENCABEZADO Y LA CAJA*/
+    padding: 5px; /*CODIGO DEL TAMAÑO DE LA CAJA*/
+    width: 620px; /*CODIGO DE ANCHURA DE LA CAJA*/
+	height: 260px; /*CODIGO DE ALTURA DE LA CAJA*/
+    box-shadow:0px 0px 20px black; /*CODIGO DEL ANCHO Y EL COLOR DEL BORDE DE LA CAJA*/
+    border-radius:15px 0px; /*CODIGO DEL BORDE LA LA CAJA*/
+    color: #000000;
+    margin-top: 30px;}
+}
+
+h1{
+	font-color: #000000;
+	font-family: consolas;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+input{
+	border-radius: 5px;
+	font-color: #000000;
+	font-family: consolas;
+	font-size: 14px;
+	height: 25px; /*CODIGO DE ALTURA DE LA CAJA*/
+
+}
+
+span{
+	font-color: #000000;
+	font-family: consolas;
+	font-size: 24px;
+	font-weight: bold;
+	text-align:center;
+}
+
+select{
+	border-radius: 5px;
+	font-color: #000000;
+	font-family: consolas;
+	font-size: 20px;
+	text-align:center;
+	height: 25px;
+}
+
+
+
+

@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Consolas;
+    font-size: 12px; /*TAMAÑO DE LA LETRA*/
+	color: #000000; /*CODIGO DEL COLOR DE LA LETRA*/
+}
+
+body{
+    background: /img/.css/fondonaranja.jpg; /*CODIGO DEL COLOR DEL FONDO DE LA PÁGINA*/
+    padding-top: 7%;
+}
+
+b{
+	color: #000000;
+	font-family: Consolas;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+fieldset{
+    background: #FFFFFF; /*CODIGO DEL COLOR DE LA CAJA*/
+    border-radius: 0px 10px 0px 10px; /*CODIGO DEL BORDE DE LA CAJA*/
+    max-width: 100%;
+}
+
+form.calificaciones{
+    background: none repeat scroll 0 0 #F17E03;/*#FF4500 ó #FF7F00 ó #FF8C00 CODIGO DEL COLOR DE LA CAJA*/
+    border: 0px solid #000000;/*CODIGO DEL COLOR DE LA LINEA EXTERNA DE LA CAJA*/
+    font-family: Consolas; /*TIPO DE LA LETRA DE LA CAJA*/
+    margin: 0 auto; /*CODIGO DEL ESPACIO ENTRE EL ENCABEZADO Y LA CAJA*/
+    padding: 10px; /*CODIGO DEL TAMAÑO DE LA CAJA*/
+    width: 760px; /*CODIGO DE ANCHURA DE LA CAJA*/
+    height: 190px; /*CODIGO DE ALTURA DE LA CAJA*/
+    box-shadow:0px 0px 20px black; /*CODIGO DEL ANCHO Y EL COLOR DEL BORDE DE LA CAJA*/
+    border-radius: 0px 15px 0px 15px; /*CODIGO DEL BORDE LA LA CAJA*/
+    color: #000000;
+    margin-top: 15px;
+}
+
+img{
+    max-width: 100%;
+    margin-top: -6.7%;
+    margin-right: 0%%;
+    margin-left: -1%;
+    float: center;
+}
+
+input{
+    border-color: #F7E9F7; 
+    border-radius: 5px 0px 5px 0px;
+    color: #000000;
+    font-family: Consolas;
+    max-width: 100%;
+    min-height: 2em;
+    font-size: 12px
+    text-align: center;
+}
+
+p{
+	color: #000000;
+	font-family: Consolas;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+select{
+    border-color: #F7E9F7; 
+    border-radius: 5px 0px 5px 0px;
+    color: #000000;
+    font-family: Consolas;
+    max-width: 100%;
+    min-height: 2em;
+    font-size: 12px;
+    text-align: center;
+}
+
+span{
+    color: #000000;
+    font-family: Consolas;
+    font-size: 12px;
+
+}
+
+
+@media screen and (max-widht: 100px){
+    body{
+        widht:50px;
+    }
+}
+
+.error{
+    color: red;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+}

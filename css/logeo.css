@@ -1,0 +1,139 @@
+*{
+    font-size: 14px; /*TAMAÑO DE LA LETRA*/
+    color: #000000; /*CODIGO DEL COLOR DE LA LETRA*/
+    margin: 0;
+    max-width: 100%;
+    padding: 0px;
+}
+
+body{
+    background: /img/.css/fondonaranja.jpg; /*CODIGO DEL COLOR DEL FONDO DE LA PÁGINA*/
+    padding-top: -5%;
+    margin-left: 0px;
+    max-width: 100%;
+}
+
+br{
+    height: 0.5px;
+    max-width: 100%;
+}
+
+div{
+    color:#000000;
+    font-family: consolas;
+    font-weight: bold;
+}
+
+div.align img{
+    height: 100%;
+    max-width: 100%;
+    width:  100%;
+}
+
+
+
+div a img{/*CODIGO DEL ICONO DE LA FIGURA REFRESCAR*/
+    height: 15%;
+    margin-top: 1px;
+    max-width: 100%;
+    width:  15%;    
+}
+
+div img{/*CODIGO DEL ICONO DE LAS FIGURAS*/
+    height: 30%;
+    margin-top: 1px;
+    max-width: 100%;
+    width:  30%;
+}
+
+
+fieldset{
+    background: #F17E03; /*CODIGO DEL COLOR DE LA CAJA*/
+    border-radius: 0px 10px 0px 10px; /*CODIGO DEL BORDE DE LA CAJA*/
+    max-width: 100%;
+}
+
+form.login{
+    background: none repeat scroll 0 0 #FFFFFF;/*CODIGO DEL COLOR DE LA CAJA*/
+    border: 1px solid #000000;/*CODIGO DEL COLOR DE LA LINEA EXTERNA DE LA CAJA*/
+    font-family: Consolas; /*TIPO DE LA LETRA DE LA CAJA*/
+    margin: 0 auto; /*CODIGO DEL ESPACIO ENTRE EL ENCABEZADO Y LA CAJA*/
+    max-width: 100%;
+    padding: 6px; /*CODIGO DEL TAMAÑO DE LA CAJA*/
+    padding-top: 15px;
+    width: 355px; /*CODIGO DE ANCHURA DE LA CAJA*/
+    height: 365px; /*CODIGO DE ALTURA DE LA CAJA*/
+    box-shadow:0px 0px 10px black; /*CODIGO DEL ANCHO Y EL COLOR DEL BORDE DE LA CAJA*/
+    border-radius: 10px 0px 10px 0px; /*CODIGO DEL BORDE LA LA CAJA*/
+}
+
+form.login div{
+    margin-bottom: 0px;
+    max-width: 100%;    
+    overflow: ;
+}
+
+form.login div input[type="text"], form.login div input[type="password"]{
+    border-style: 0.1px solid;/*CÓDIGO DEL BORDE DE LA CAJA DE USUARIO Y PASSWWORD*/
+    border-color: #F17E03;
+    box-shadow: 3px 2px 3px 2px #FFFFFF;
+    color: #F7E9F7;/*CODIGO DEL BORDE DEL SOMBREADO*/
+    float: center;
+    max-width: 100%;
+    padding: 4px;
+}
+
+h2{
+    color: #000000;
+    font-size: 30px;
+    max-width: 100%;
+    text-align: center;
+}
+
+img{
+    float: center;
+    margin: 0px 0px 0px 0px;
+    margin-top: 0.4%;
+    margin-right: 0%%;
+    margin-left: -1%;
+    max-width: 100%;
+}
+
+input{
+    border-color: #F7E9F7; 
+    border-radius: 5px;
+    color: #F7E9F7;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+    text-align: center;
+}
+
+p{
+    color:#FFFFFF;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 1px 10px 5px 20px;
+    max-width: 100%;
+    text-align: center;
+}
+
+strong{
+    color:#FFFFFF;
+    font-family: consolas;
+    max-width: 100%;
+}
+
+@media screen and (max-widht: 100px){
+    body{
+        widht:50px;
+    }
+}
+
+.error{
+    color: red;
+    font-weight: bold;
+    margin: 10px;
+    max-width: 100%;
+    text-align: center;
+}

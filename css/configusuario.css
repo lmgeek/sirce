@@ -1,0 +1,97 @@
+body{
+    background:#990066; /*CODIGO DEL COLOR DEL FONDO DE LA PÁGINA*/
+    padding-top: 7%;
+    text-decoration-color: #000000;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    font-family: Arial, Helvetica, sans-serif;  
+    margin: 0px 5px 5px 10px; /*CODIGO PARA EL CENTRADO DE LA CAJA DEL TEXTO*/
+}
+
+img{
+    max-width: 100%;
+    margin-top: -7%;
+    margin-right: 0%%;
+    margin-left: -1%;
+	float: center;
+}
+
+fieldset{
+	background: #F7E9F7; /*CODIGO DE LA CAJA*/
+	border-radius: 20px; /*CODIGO DE LA RENDONDEZ DEL BORDE*/
+	border-color: #000000; /*CODIGO DEL COLOR DEL BORDE*/
+	box-shadow: 3px 2px 3px 2px;/*CODIGO DEL TAMAÑO DE LA SOMBRA DEL BORDE EXTERNO DE LA CAJA  */
+	float: center;
+	border-style: solid;
+    color: #FFE4E1;/*CODIGO DEL BORDE DEL SOMBREADO*/
+    margin-top: 1%;
+}
+
+img2{
+    margin-top: -8%;
+    margin-right: 43%;
+    margin-left: -2%;
+}
+
+p{
+	font-family: consolas;
+	text-align-last: center;
+	color: #000000;
+    font-size: 150%;
+    border-top: 2px;
+  	font-weight: bold;
+    margin-top: 8px;
+}
+
+input{
+	border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+select{
+	border-radius: 5px;
+}
+
+form.login div input[type="submit"]{
+    background: none repeat scroll 0 0 #990066; /*CODIGO DEL COLOR DE LA CAJA DE ENVIAR*/
+    border: 2px solid #000000; /*CODIGO DEL COLOR DE LA DE LA LINEA INTERNA DE LA CAJA DE LAS LETRAS*/
+    float: center;
+    font-weight: bold;
+    padding: 4px 20px; /*CODIGO DEL ANCHO DE LA CAJA DE ENTRAR */
+    border-radius:100px; /*CODIGO DE LA REDONDEZ DE LA CAJA DE ENTRAR */
+    color: #FFFFFF;
+}
+
+form.login div input[type="reset"]{
+    background: none repeat scroll 0 0 #990066; /*CODIGO DEL COLOR DE LA CAJA DE ENVIAR*/
+    border: 2px solid #000000; /*CODIGO DEL COLOR DE LA DE LA LINEA INTERNA DE LA CAJA DE LAS LETRAS*/
+    float: center;
+    font-weight: bold;
+    padding: 4px 20px; /*CODIGO DEL ANCHO DE LA CAJA DE ENTRAR */
+    border-radius:100px; /*CODIGO DE LA REDONDEZ DE LA CAJA DE ENTRAR */
+    color: #FFFFFF;
+    border-color: #000000;
+}
+
+.error{
+    color: red;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+}
+
+form div{
+    color: #000000;
+}
+
+
+div{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000000;
+    font-size: 14px;
+    
+}

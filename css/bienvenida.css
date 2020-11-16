@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 18px; /*TAMAÑO DE LA LETRA*/
+    color: #FFFFFF; /*CODIGO DEL COLOR DE LA LETRA*/
+}
+
+body{
+    background: /img/.css/fondonaranja.jpg; /*CODIGO DEL COLOR DEL FONDO DE LA PÁGINA*/
+    padding-top: 7%;
+}
+
+h1{
+    text-align: center;
+}
+
+
+img{
+    max-width: 100%;
+    margin-top: -6.7%;
+    margin-right: 0%%;
+    margin-left: -1%;
+    float: center;
+}
+
+form.login{
+    background: none repeat scroll 0 0 #F17E03;/*#FF4500 ó #FF7F00 ó #FF8C00 CODIGO DEL COLOR DE LA CAJA*/
+    border: 0px solid #000000;/*CODIGO DEL COLOR DE LA LINEA EXTERNA DE LA CAJA*/
+    font-family: Consolas; /*TIPO DE LA LETRA DE LA CAJA*/
+    margin: 0 auto; /*CODIGO DEL ESPACIO ENTRE EL ENCABEZADO Y LA CAJA*/
+    padding: 10px; /*CODIGO DEL TAMAÑO DE LA CAJA*/
+    width: 645px; /*CODIGO DE ANCHURA DE LA CAJA*/
+    height: 245px; /*CODIGO DE ALTURA DE LA CAJA*/
+    box-shadow:0px 0px 20px black; /*CODIGO DEL ANCHO Y EL COLOR DEL BORDE DE LA CAJA*/
+    border-radius: 0px 15px 0px 15px; /*CODIGO DEL BORDE LA LA CAJA*/
+    color: #000000;
+    margin-top: 15px;
+}
+
+form.login div{
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+form.login div label{
+    display: block;
+    float: left;
+    line-height: 30px;
+    color: #000044;
+}
+
+form.login div input[type="submit"]{
+    background: none repeat scroll 0 0 #FFFFFF; /*CODIGO DEL COLOR DE LA CAJA DE ENVIAR*/
+    border: 1px solid #C0C0C0; /*CODIGO DEL COLOR DE LA DE LA LINEA INTERNA DE LA CAJA DE LAS LETRAS*/
+    float: center;
+    font-weight: bold;
+    margin-right: 10px;
+    padding: 6px 20px; /*CODIGO DEL ANCHO DE LA CAJA DE ENTRAR */
+    border-radius: 5px 0px 5px 0px; /*CODIGO DE LA REDONDEZ DE LA CAJA DE ENTRAR */
+    color: #000000;
+} 
+
+fieldset{
+    border-radius: 15px 0px 15px 0px;
+    border-color: #FFFFFF;
+}
+
+span{
+    font-size: 36px; /*TAMAÑO DE LA LETRA*/
+    font-weight: bold;
+    text-align: center;
+}
+
+
+@media screen and (max-widht: 100px){
+    body{
+        widht:50px;
+    }
+}
+
+.error{
+    color: red;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+}
